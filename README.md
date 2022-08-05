@@ -36,3 +36,5 @@ You will need to have an "app password" before the above works https://security.
 # Test project to test microservice
 
 Please refer to below project
+
+https://github.com/muhammad-atif-saleem/TestEmailMicroservice
