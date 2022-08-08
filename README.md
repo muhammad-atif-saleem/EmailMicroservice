@@ -25,11 +25,13 @@ https://redis.io/docs/getting-started/
 To Install typescript, run below command
 
 npm i --save-dev typescript
+
 npm i --save-dev @types/node
 
 To Install BullMQ and redis modules, run below command
 
 npm i bullmq
+
 npm i ioredis
 
 To Install nodemailer, run below command
