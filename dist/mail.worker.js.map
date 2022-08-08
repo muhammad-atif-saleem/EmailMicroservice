@@ -1,0 +1,1 @@
+{"version":3,"file":"mail.worker.js","sourceRoot":"","sources":["../src/mail.worker.ts"],"names":[],"mappings":";;;;;;AAAA,mCAAgC;AAChC,sDAA8B;AAEjB,QAAA,MAAM,GAAG,IAAI,eAAM,CAAC,gBAAM,CAAC,SAAS,EAAE,SAAS,GAAG,qBAAqB,EAAE;IACpF,UAAU,EAAE,gBAAM,CAAC,UAAU;IAC7B,WAAW,EAAE,gBAAM,CAAC,WAAW;CAChC,CAAC,CAAC;AAEH,OAAO,CAAC,GAAG,CAAC,2BAA2B,CAAC,CAAC"}
