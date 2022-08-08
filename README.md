@@ -6,7 +6,7 @@ The idea is quite simple, we will have one queue where we will post jobs for sen
 
 # Useful features of BullMQ
 
-eparation of concerns
+Separation of concerns
 Scalability
 Reliability
 
@@ -21,10 +21,16 @@ BullMQ
 Install Redis on local environment, please follow below link.
 https://redis.io/docs/getting-started/
 
-To Install BullMQ, run below command
-npm i bullmq
 
-To Install , run below command
+To Install typescript, run below command
+npm i --save-dev typescript
+npm i --save-dev @types/node
+
+To Install BullMQ and redis modules, run below command
+npm i bullmq
+npm i ioredis
+
+To Install nodemailer, run below command
 npm i nodemailer
 
 You can use any Email SMTP Server configurations. We will use two configurations
@@ -33,8 +39,15 @@ You can use any Email SMTP Server configurations. We will use two configurations
 
 You will need to have an "app password" before the above works https://security.google.com/settings/security/apppasswords
 
+
+Set your email username and password in .env file
+
 # Test project to test microservice
 
-Please refer to below project
+Execute below command so microservice will listen incoming jobs
+
+npm start
+
+Now, send payload to the microservice to check the functionality, please refer to below project
 
 https://github.com/muhammad-atif-saleem/TestEmailMicroservice
