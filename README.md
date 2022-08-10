@@ -56,3 +56,36 @@ npm start
 Now, send payload to the microservice to check the functionality, please refer to below project
 
 https://github.com/muhammad-atif-saleem/TestEmailMicroservice
+
+
+# Unit Tests of Components using Jest
+
+Install required modules
+
+npm install --save-dev ts-jest
+
+npm install --save-dev @types/jest
+
+npm i ts-node
+
+create jest.config.ts file in root folder
+
+Add below script in jest.config.ts file
+
+import type {Config} from '@jest/types';
+// Sync object
+const config: Config.InitialOptions = {
+  verbose: true,
+  transform: {
+  '^.+\\.tsx?$': 'ts-jest',
+  },
+};
+export default config;
+
+Add below command in package.json file under scripts block
+
+"test": "tsc && jest dist/tests/mail.test.js"
+
+Now run unit tests my running below command:
+
+npm test
